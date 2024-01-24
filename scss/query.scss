@@ -1,0 +1,56 @@
+@media screen and (max-width:1024px){
+    .aside-container{
+        #main-svg{
+        display: none;
+        }
+    }
+
+    .services-container {
+        margin: 0;
+        background: $white-color;
+        
+        ul {
+            display: block;
+            li{
+                i, p, h3{
+                    color: $dark-blue
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .aside-container {
+        display: block;
+        margin-top: 200px;
+        text-align: center;
+        #logomarca-aside {
+        display: block;
+        margin: 70px auto;
+        }
+    }
+    .navbar-container{
+        justify-content: center;
+
+        img {
+            display: none;
+        }
+    }
+
+    .services-container {
+        padding: 0;
+        margin: 0;
+        background: $white-color;
+        
+        ul {
+            display: block;
+            li{
+                i, p, h3{
+                    color: $dark-blue
+                }
+            }
+        }
+    }
+}
