@@ -65,10 +65,16 @@
             </figure>
             <h3 id="message-title">Deixe-nos uma mensagem!</h3>
             <form class="form-container">
-                <input type="text" placeholder="Nome" id="name">
-                    
-                <input type="email" placeholder="example@gmail.com">
-                    
+                <div class="input-container">
+                    <div class="name-input">
+                        <p class="name-icon"><i class="fa-solid fa-user"></i></p>
+                        <input type="text" placeholder="Nome" id="name">
+                    </div>    
+                    <div class="email-input">
+                        <p class="email-icon"><i class="fa-solid fa-envelope"></i></p>
+                        <input type="email" placeholder="example@gmail.com">
+                    </div>  
+                </div>
                 <textarea id="message" cols="30" rows="10" placeholder="Muito bom!"></textarea>
                 <input type="submit" id="btn">
             </form>

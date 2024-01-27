@@ -73,7 +73,8 @@
   height: 500px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  text-align: center;
 }
 .aside-container #main-svg {
   width: 55rem;
@@ -91,7 +92,6 @@
   font-size: 50px;
 }
 .aside-container #logomarca-aside {
-  width: 100px;
   display: none;
 }
 
@@ -192,6 +192,7 @@
 }
 .message-container .form-container {
   margin: 0 auto;
+  position: relative;
 }
 .message-container .form-container input, .message-container .form-container textarea {
   width: 200px;
@@ -200,6 +201,30 @@
   border-radius: 5px;
   border: 1px solid #6c63ff;
   margin: 0px 10px 5px;
+  color: #6c63ff;
+}
+.message-container .form-container .input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.message-container .form-container .input-container .name-input, .message-container .form-container .input-container .email-input {
+  color: #6c63ff;
+  position: relative;
+}
+.message-container .form-container .input-container .name-input input, .message-container .form-container .input-container .email-input input {
+  padding-left: 45px;
+}
+.message-container .form-container .input-container .name-input .email-icon, .message-container .form-container .input-container .email-input .email-icon {
+  position: absolute;
+  top: 11.5px;
+  left: 26.5px;
+}
+.message-container .form-container .input-container .name-input .name-icon, .message-container .form-container .input-container .email-input .name-icon {
+  position: absolute;
+  top: 11px;
+  left: 28px;
 }
 .message-container .form-container input::placeholder {
   color: #6c63ff;

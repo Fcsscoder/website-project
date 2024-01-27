@@ -15,7 +15,8 @@
     height: 500px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: center;
+    text-align: center;
 
     #main-svg {
         width: 55rem;
@@ -37,8 +38,8 @@
     }
 
     #logomarca-aside{
-      width: 100px;
       display: none;
+  
     }
 }
 
