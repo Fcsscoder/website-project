@@ -75,6 +75,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  gap: 40px;
 }
 .aside-container #main-svg {
   width: 55rem;
@@ -215,6 +216,7 @@
 }
 .message-container .form-container .input-container .name-input input, .message-container .form-container .input-container .email-input input {
   padding-left: 45px;
+  width: 250px;
 }
 .message-container .form-container .input-container .name-input .email-icon, .message-container .form-container .input-container .email-input .email-icon {
   position: absolute;
