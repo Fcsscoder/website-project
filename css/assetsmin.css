@@ -26,11 +26,24 @@
   text-transform: uppercase;
   font-weight: 600;
 }
+.navbar-container li#navbar-btn:hover {
+  transform: scale(1.08);
+}
 .navbar-container li a {
   text-decoration: none;
   color: #fff;
   position: relative;
   transition: 0.3s;
+}
+.navbar-container li a.default-btn {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  color: #6c63ff;
+  position: relative;
+}
+.navbar-container li a.default-btn:hover {
+  transform: scale(1.2);
 }
 .navbar-container li a:not(.default-btn)::after {
   content: " ";
@@ -44,16 +57,6 @@
 }
 .navbar-container li a:hover::after {
   width: 100%;
-}
-.navbar-container li a.default-btn {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  color: #6c63ff;
-}
-.navbar-container li a.default-btn:hover {
-  background-color: #0077B6;
-  color: #fff;
 }
 
 @keyframes floatAnimation {
@@ -148,13 +151,15 @@
     text-align: center;
   }
   .aside-container #logomarca-aside {
+    font-size: 25px;
+    color: #6c63ff;
     display: block;
     margin: 70px auto;
   }
   .navbar-container {
     justify-content: center;
   }
-  .navbar-container img {
+  .navbar-container #logomarca {
     display: none;
   }
   .services-container {

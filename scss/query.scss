@@ -27,17 +27,21 @@
         margin-top: 200px;
         text-align: center;
         #logomarca-aside {
+        font-size: 25px;
+        color: $dark-blue;
         display: block;
         margin: 70px auto;
         }
     }
+    
     .navbar-container{
         justify-content: center;
-
-        img {
+        #logomarca {
             display: none;
         }
     }
+
+    
 
     .services-container {
         padding: 0;
