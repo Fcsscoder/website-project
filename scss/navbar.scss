@@ -10,11 +10,12 @@
     position: relative;
     padding: 0 2rem;
 
-    img {
+    #logomarca {
         position: absolute;
         width: 4rem;
         top: 20px;
         left: 20px;
+        color: $white-color;
     }
 
     li{
@@ -25,14 +26,27 @@
         transition: 0.3s;
         text-transform: uppercase;
         font-weight: 600;
-
-        &:hover{
-            transform: scale(1.1);
-        }
-
+        
         a{
             text-decoration: none;
             color: $white-color;
+            position: relative;
+            transition: 0.3s;
+
+            &:not(.default-btn)::after {
+                content: " ";   
+                width: 0%;
+                height: 1px;
+                background-color: $white-color;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                transition: 0.4s;
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
 
             &.default-btn{
                 background-color: $white-color;
@@ -40,7 +54,11 @@
                 border-radius: 5px;
                 color: $dark-blue;
             }
+
+            &.default-btn:hover{
+                background-color: $medium-blue;
+                color: $white-color;
+            }
         }
     }
 }
-
