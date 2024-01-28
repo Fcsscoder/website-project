@@ -1,7 +1,7 @@
 @import "./variables.scss";
 
 .services-container {
-    margin-top: 100px;
+    margin-top: 8rem;
     padding: 5rem 0;
     background-color: $dark-blue;
 
@@ -14,11 +14,11 @@
         li{
             color: $white-color;
             flex: 1 1 200px;
-            padding: 40px;
+            padding: 2.5rem;
             
              i {
-                font-size: 50px;
-                margin-bottom: 12px;
+                font-size: 3.2rem;
+                margin-bottom: 0.8rem;
                 color: $white-color;
                 transition: 0.3s;
                     &:hover{
@@ -27,11 +27,11 @@
                 }
 
             h3 {
-                margin: 0 0 30px 0;
+                margin: 0 0 1.2rem 0;
             }
 
             p {
-                line-height: 30px;
+                line-height: 1.8rem;
                 font-family: 'Montserrat', sans-serif;
             }
         }
