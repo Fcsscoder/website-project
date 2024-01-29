@@ -217,6 +217,8 @@
 .message-container .form-container .input-container .name-input input, .message-container .form-container .input-container .email-input input {
   padding-left: 3rem;
   width: 250px;
+  border: transparent;
+  border-bottom: 1px solid #6c63ff;
 }
 .message-container .form-container .input-container .name-input .email-icon, .message-container .form-container .input-container .email-input .email-icon {
   position: absolute;
