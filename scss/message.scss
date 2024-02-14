@@ -3,7 +3,7 @@
 .message-container {
     width: 100%;
     padding: 3rem 0 4rem 0;
-    margin: 1.2rem 0px;
+    margin: 0.5rem 0px;
     text-align: center;
     position: relative;
 
@@ -89,7 +89,7 @@
 
         }
 
-        #btn{
+        #btn-submit{
             background-color: $dark-blue;
             border: none;
             color: $white-color;
@@ -97,10 +97,10 @@
             transition: 0.3s;
         }
 
-        #btn:hover {
+        #btn-submit:hover {
             background-color: $white-color;
             color: $dark-blue;
-            border: 1px $dark-blue solid;
+            outline: 1px $dark-blue solid;
         }
     }
 }

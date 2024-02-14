@@ -26,10 +26,6 @@
         transition: 0.3s;
         text-transform: uppercase;
         font-weight: 600;
-
-        &#navbar-btn:hover {
-                transform: scale(1.08);
-        }
         
         a{
             text-decoration: none;
@@ -46,7 +42,9 @@
             }
 
             &.default-btn:hover{
-                transform: scale(1.20);
+                color: #fff;
+                background-color: $dark-blue;
+                outline: #fff 1px solid;
             }
 
             &:not(.default-btn)::after {
