@@ -1,4 +1,4 @@
-const myButton = document.querySelector("#btn")
+const myButton = document.querySelector("#btn-submit")
 const myTitle = document.querySelector("#message-title")
 const form = document.querySelector(".form-container")
 const inputName = document.querySelector("#name")
