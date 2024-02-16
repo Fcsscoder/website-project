@@ -26,6 +26,7 @@
         display: block;
         margin-top: 13rem;
         text-align: center;
+
         #logomarca-aside {
         font-size: 1.5rem;
         color: $dark-blue;
@@ -38,6 +39,10 @@
 
         #name, #email, #message {
             width: 400px;
+    }
+
+    #message-title {
+        font-size: 20px;
     }
 
         .input-container {
