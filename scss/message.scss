@@ -1,7 +1,6 @@
 @import "./variables.scss";
 
 .message-container {
-    width: 100%;
     padding: 3rem 0 4rem 0;
     margin: 0.5rem 0px;
     text-align: center;
@@ -23,7 +22,7 @@
         position: relative;
         
         input, textarea{
-            width: 200px;
+            width: 100px;
             padding: 0.7rem 1.2rem;
             font-size: 1rem;
             border-radius: 5px;

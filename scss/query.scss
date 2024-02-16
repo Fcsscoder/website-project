@@ -35,17 +35,22 @@
     }
     
     .message-container {
-        padding: 20px;
+
+        #name, #email, #message {
+            width: 400px;
     }
+
+        .input-container {
+           flex-direction: column;
+    }
+}
+
     .navbar-container{
         justify-content: center;
         #logomarca {
             display: none;
         }
     }
-
-    
-
     .services-container {
         padding: 0;
         margin: 0;
